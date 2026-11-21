@@ -49,7 +49,7 @@ $status = isset($_GET["status"]) ? $_GET["status"] : "";
 
         <br>
         <button type="submit">Simpan</button>
-    </form><hr><hr>
+    </form><br><br>
 
     <div class="navigasi">
         <a href="tampil_anggota.php">Lihat Daftar Anggota Perpustakaan</a>
