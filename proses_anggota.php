@@ -110,11 +110,7 @@ if (empty($errors)) {
 <head>
     <meta charset="UTF-8">
     <title>Hasil Pendaftaran Anggota</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #1f3864; }
-        .gagal { background: #fdecea; border-left: 5px solid #c0392b; padding: 10px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php if (!empty($errors)) { ?>

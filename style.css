@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #1f3864;
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    max-width: 360px;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1f3864;
+}
+
+button,
+.tombol {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 20px;
+    background-color: #1f3864;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.tombol:hover {
+    background-color: #16294a;
+}
+
+.aksi {
+    margin-bottom: 16px;
+}
+
+.aksi .tombol {
+    margin-top: 0;
+}
+
+.navigasi {
+    margin-top: 16px;
+}
+
+.navigasi a {
+    color: #1f3864;
+    text-decoration: none;
+}
+
+.navigasi a:hover {
+    text-decoration: underline;
+}
+
+.sukses {
+    background: #e6f4ea;
+    border-left: 5px solid #2e7d32;
+    padding: 10px 14px;
+    max-width: 360px;
+    margin-bottom: 16px;
+}
+
+.gagal {
+    background: #fdecea;
+    border-left: 5px solid #c0392b;
+    padding: 10px 14px;
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.kosong {
+    background: #fff8e1;
+    border-left: 5px solid #f9a825;
+    padding: 10px 14px;
+    max-width: 360px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 12px;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f3864;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f6f9;
+}
+
+table.info-koneksi {
+    width: auto;
+    background-color: transparent;
+}
+
+table.info-koneksi td {
+    border: none;
+    padding: 4px 16px 4px 0;
+}

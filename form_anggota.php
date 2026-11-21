@@ -7,14 +7,7 @@ $status = isset($_GET["status"]) ? $_GET["status"] : "";
 <head>
     <meta charset="UTF-8">
     <title>Pendaftaran Anggota Perpustakaan</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #1f3864; }
-        label { display: block; margin-top: 12px; font-weight: bold; }
-        input[type="text"], select, textarea { width: 320px; padding: 6px; margin-top: 4px; }
-        button { margin-top: 16px; padding: 8px 20px; }
-        .sukses { background: #e6f4ea; border-left: 5px solid #2e7d32; padding: 10px; width: 320px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Pendaftaran Anggota Perpustakaan</h1>
