@@ -36,6 +36,7 @@ if (!$hasil) {
                 <th>Nomor HP</th>
                 <th>Jenis Anggota</th>
                 <th>Alamat</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody>
@@ -51,6 +52,15 @@ if (!$hasil) {
                     <td><?php echo htmlspecialchars($row["no_hp"]); ?></td>
                     <td><?php echo htmlspecialchars($row["jenis_anggota"]); ?></td>
                     <td><?php echo htmlspecialchars($row["alamat"]); ?></td>
+                    <td>
+                        <a href="edit_anggota.php? id=<?= $row['id']; ?>">
+                            Edit
+                        </a>
+                        <form action="hapus_anggota.php" method="post" onsubmit="return confirm('Yakin ingin menghapus data?')">
+                            <input type="hidden" name="no_id" value="<?= $row['id']; ?>">
+                            <button type="submit">Hapus</button>
+                        </form>
+                    </td>
                 </tr>
             <?php } ?>
         </tbody>
