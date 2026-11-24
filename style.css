@@ -57,7 +57,7 @@ button,
 
 button:hover,
 .tombol:hover {
-    background-color: #16294a;
+    background-color: #9e0000;
 }
 
 .aksi {
@@ -120,7 +120,7 @@ td {
 }
 
 th {
-    background-color: #1f3864;
+    background-color: #8b0000;
     color: #ffffff;
 }
 
