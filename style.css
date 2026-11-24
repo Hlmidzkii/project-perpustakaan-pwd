@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 40px;
     background-color: #f8f9fa;
-    color: #212529;
+    color: #ee0000;
     line-height: 1.5;
 }
 
@@ -73,7 +73,7 @@ button:hover,
 }
 
 .navigasi a {
-    color: #1f3864;
+    color: #830000;
     text-decoration: none;
 }
 
